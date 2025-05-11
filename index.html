@@ -4,40 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yusuf Siyam</portal></title>
+
+    <!--front awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="
     sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous"
      referrerpolicy="no-referrer" />
+
+     <!--google front-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+    <!--link:css-->
+<link rel="stylesheet" href="index.css">
 </head>
 
-<style>
-    body{
-        background-color: rgb(250, 231, 201);
-        font-family: "Roboto", sans-serif;
-    }
-</style>
-
-<header>
-    <nav>
-
-    </nav>
-</header>
-
-
-
-
-<main>
+<!--body start here------------->
 <body>
-    <!--Header-->
-        <h1>MD Yusuf Siyam</h1>
-        <p><b>Computer Science & Engineering | 3rd Year Student</b></p>
-            <p>United International University, Dhaka</p> <hr>
-            <section>
-                <h2>About Me</h2>
-                <p>My interests lie in exploring the ever-evolving world of technology, with a strong enthusiasm for programming, software development, and problem-solving.</p>
+<!--Header er modde Naveer-->
+  <header> 
+     <nav>
+    <ul>
+      <li>
+        <a href="#about me">About me</a>
+      </li>
+    </ul>
+
+    <ul>
+      <li><a href="#skill">Skills</a> </li>
+    </ul>
+
+    <ul>
+        <li>
+            <a href="#contuct">Contuct me</a> 
+        </li>
+      </ul>    
+</nav>
+  </header>
+
+   <!----------Main Section-->
+<main>
+  <section id="intro" class="intro">
+       <h1 class="intro__tittle">MD Yusuf Siyam</h1>
+        <p class="intro__description"><b>Computer Science & Engineering | 3rd Year Student</b></p>
+        <p>United International University, Dhaka</p> <hr>
+
+  </section>
+        
+    <!--section:About Me-->        
+            <section id="about me">
+
+            <h2>About Me</h2>
+             <p>My interests lie in exploring the ever-evolving world of technology, with a strong enthusiasm for programming, software development, and problem-solving.</p>
             <p> I enjoy working on creative projects that challenge me to think critically and innovate.</p>
             <p> My goal is to build a successful career in the tech industry, contributing to groundbreaking solutions in software engineering, artificial intelligence, or cybersecurity. 
             <p>I aspire to continuously learn and grow, making a meaningful impact in the field of technology</p>
@@ -46,8 +64,14 @@
             
     </head>
 
+    <div claas="parent">
+        <div class="child">div1</div>
+        <div class="child">div2</div>
+        <div class="child">div3</div>
+    </div>
+
     <!--section:Skills and Expertise-->
-    <section>
+    <section id="skill">
         <h2>Skills and Expertise:</h2>
             <ul type="squre">
                 <li>HTML</li>
@@ -101,9 +125,11 @@
     
 
     </section>
+
     <!--section:3.Projects-->
-    <h2>Project Showcase</h2>
+    
     <section id="projects">
+        <h2>Project Showcase</h2>
         <div>
             <ul>
                 <li>
@@ -179,7 +205,7 @@
 
      <!--section:5.Contact Form-->
      
-     <section>
+     <section id="contuct">
         <h2>Contruct Me</h2>
         <form action="https://formspree.io/f/mdkgzbnw"
         method="POST">
@@ -202,6 +228,11 @@
                 <label for="review">Review:</label>
                <textarea id="review" name="review" rows="4" cols="50" required>
               </textarea>
+              </div>
+
+             <div>
+               <label for="color">uplod image</label>
+               <input type="color" id="color" name="color" accept="color"/>
               </div>
 
               <div>
@@ -228,6 +259,8 @@
 
       <!--section:footer-->
       <footer>
+        
+
         <div>
             <h2>If any need contruct me</h2>
             <p>Copyrigt by &copy;siyam</p>
@@ -235,6 +268,9 @@
         <a href="tel:01521703400">📲 Call Me</a> <br>
         <a href="mailto:mdsiaym1011@gmail.com">📨 Mail Me</a>
         </div>
+
+
+        <div class="social media">
 
       <div>
         <ul>
@@ -274,13 +310,15 @@
     </ul>
    </div>
 
+   </div>
+
    <div>
     <h3>Check my location</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.2015272302265!2d90.5796387!3d23.87532230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755cc941fb8bf29%3A0xbabffcdac7915bd1!2sAtlapur%20Bazar%2C%20Atlapur%20Rd%2C%20Bholabo%20Union%201720!5e0!3m2!1sen!2sbd!4v1746712581951!5m2!1sen!2sbd" width="500" height="300" title="My home"
     ="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-      </footer>
+ </footer>
 
     
 </body>

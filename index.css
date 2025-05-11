@@ -1,0 +1,116 @@
+:root{
+    --primary-color:#4caf50;
+    --secondary-color:#bb4242;
+    --background-color:#beb9e8;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,h2{
+    color: var(--primary-color);
+}
+h1::first-letter{
+    color: var(--secondary-color);
+}
+button{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+button:hover{
+    background-color: aqua;
+}
+
+
+
+header{
+   background-color: var(--primary-color);
+    
+    color: var(--background-color);
+      text-align: center;
+      font-weight: bold;
+      padding: 1.5rem 0 ;
+           width: 100%;
+     
+      position: sticky;
+      top: 0;
+   
+}
+
+ul li a{
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+main{
+width: 80%;
+    /* margin: auto; */
+    /* padding: 1.2rem; */
+}
+
+.intro{
+  height: 80vh;
+  background-image: url(images/img1.jpeg);
+  margin:0 1rem ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+
+}
+.intro intro__description{
+    color: rgb(77, 147, 8);
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  border: 0;
+
+
+}
+
+
+
+<!--footer start here-->
+footer{
+    background-color: #4caf50;
+    color: #410404;
+}
+
+.social-media a {
+    color: var(--secondary-color);
+    font-size: 1.5 rem;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#contuct{
+background-color: var(--card-background-color);
+    border-radius: 0.5rem;
+    margin:1.2rem;
+    padding:1.2rem ;
+
+}
+.parent{
+    background-color: red;
+    height: 30rem;
+    display: flex;
+
+}
+.chil{
+ color: green;
+ margin: 1 rem;
+}
